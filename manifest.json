@@ -1,1 +1,2 @@
-{"short_name":"Corrently","name":"Corrently - Regionaler Ökostrom","icons":[{"src":"/assets/img/casa_corrently_logo.png","type":"image/png","sizes":"512x512"},{"src":"/assets/img/casa_corrently_logo.png","type":"image/png","sizes":"512x512"}],"start_url":"/index.html","display":"standalone"}
+{ "short_name": "Nordic Energy", "name": "Digital Energy - Regional green electricity", "icons": [{ "src": "/assets/img/casa_corrently_logo.png", "type": "image/png", "sizes": "512x512" }, { "src": "/assets/img/digital_logo.png", "type": "image/png", "sizes": "512x512" }], "start_url": "/index.html", "display": "standalone" }
+_energy
