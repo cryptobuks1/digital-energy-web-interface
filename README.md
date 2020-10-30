@@ -11,14 +11,14 @@
 ### HomeScreen
 ![Digital Energy Homescreen](https://squad.digitalenergy.biz/nextcloud/index.php/s/mK5Q5Px34q9cLwM/preview)
 
-![Reference](https://digital-energy-demo.herokuapp.com/index.html)
+Reference:https://digital-energy-demo.herokuapp.com/index.html
 
 ### Energy Price statistics
 ![Digital Energy Electricity price](https://squad.digitalenergy.biz.io/nextcloud/index.php/s/pgEeHSXLQYgZqRC/preview)
 
-![Reference:](https://digital-energy-demo.herokuapp.com/electricitycosts.html)
+Reference: https://digital-energy-demo.herokuapp.com/electricitycosts.html
 
 ### Community Screen
 ![Digital Energy Community](https://squad.digitalenergy.biz.de/nextcloud/index.php/s/gWbbnw7SaqXiCsp/preview)
 
-![Reference:](https://digital-energy-demo.herokuapp.com/community.html)
+Reference: https://digital-energy-demo.herokuapp.com/community.html
