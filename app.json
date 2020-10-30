@@ -1,0 +1,7 @@
+{
+    "name": "Digital Energy Web Interface",
+    "description": "Deploys a Digital Energy environment for PV (Solar) Prosumers allowing to monitor economic conditions and compare with community results",
+    "repository": "https://github.com/energychain/digital-energy-webinterface",
+    "logo": "https://www.digital-energy.de/transparenz/wp-content/uploads/2020/04/cropped-digital-energy-Logo-Background-4.png",
+    "keywords": ["smartmeter", "discovergy", "digital-energy", "monitoring", "energy", "community"]
+}

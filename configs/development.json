@@ -1,0 +1,21 @@
+{
+    "id": "da546890.0f3d38",
+    "type": "Discovergy Meter",
+    "name": "Development Prosumer (Measurement concept 2)",
+    "meterId": "781ffa307e434529be9f747eece1b8dc",
+    "firstReading": 4614000,
+    "firstReadingOut": 3915000,
+    "firstReadingDate": "2017-01-01",
+    "isProduction": false,
+    "revenue": 0.11,
+    "amortization": 1850,
+    "prodMeterId": "303fbb8ca6404ebba48c196b4dbbc176",
+    "firstReadingProd": 21260000,
+    "username": "demo@digitalenergy.biz",
+    "password": "aNPR66nGXQhZ",
+    "stromkonto": "0x7866f187f30cd52Bdbd5c4184fD3ee6168Ae0dB4",
+    "depot": "0x7866f187f30cd52Bdbd5c4184fD3ee6168Ae0dB4",
+    "community": "development",
+    "autoupdate": "false",
+    "publisher": "casa-corrently-ipfs-edge"
+}

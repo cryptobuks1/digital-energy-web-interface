@@ -1,10 +1,8 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/nordicenergy/digital-energy-web-interface)
-
 # Digital Energy Web Interface
 
 ##### Static Web Interface for Digital Energy Cloud based Energy Management
 
-###### Only Digital Energy can tell you when and how much green electricity is generated in your region. The Digital Energy provides you with a clear picture of electricity from regional solar and wind power plants. Not only you benefit from this, but also the climate.
+#### Only Digital Energy can tell you when and how much green electricity is generated in your region. The Digital Energy provides you with a clear picture of electricity from regional solar and wind power plants. Not only you benefit from this, but also the climate.
 
 
 ## Deployment (via Heroku)
