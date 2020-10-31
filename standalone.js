@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const CasaCorrently = require("casa-corrently");
+const DigitalEnergy = require("digital-energy");
 const fs = require("fs");
 
 let doupdates = true;
@@ -16,9 +16,9 @@ const boot = async function() {
   if((process.argv.length == 3)&&(await fileExists(process.argv[2]))) {
     config = JSON.parse(fs.readFileSync(process.argv[2]));
   } else
-  if((process.argv.length == 3)&&(await fileExists('/casa-corrently-docker'))) {
+  if((process.argv.length == 3)&&(await fileExists('/digital-energy-docker'))) {
     // for use with docker image mount point of volume at /configs
-    config = JSON.parse(fs.readFileSync('/casa-corrently-docker'));
+    config = JSON.parse(fs.readFileSync('/digital-energy-docker'));
   } else
   if(await fileExists("./config.json")) {
     config = JSON.parse(fs.readFileSync("./config.json"));
@@ -34,7 +34,7 @@ const boot = async function() {
     doupdates = config.autoupdate;
   }
   config.staticFiles = './';
-  const main = await CasaCorrently();
+  const main = await DigitalEnergy();
   await main.server(config);
 };
 
