@@ -22,7 +22,7 @@
     "bugs": {
         "url": "https://github.com/nordicenergy/digital-energy-web-interface/issues"
     },
-    "homepage": "https://www.nordicenergy.io/digitalenergy",
+    "homepage": "https://www.digitalenergy.nordicenergy.io",
     "dependencies": {
         "Digital Energy": "^1.0.80",
         "Digital Energy-ipfs-edge": "^1.1.72",
@@ -32,4 +32,4 @@
     "devDependencies": {
         "mocha": "^8.1.3"
     }
-} -
+} - .
