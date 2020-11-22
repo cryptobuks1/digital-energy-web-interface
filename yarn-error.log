@@ -1,0 +1,65 @@
+Arguments: 
+  /Users/mikovainio/.nvm/versions/node/v13.10.1/bin/node /Users/mikovainio/.yarn/bin/yarn.js install
+
+PATH: 
+  /usr/local/opt/ruby/bin:/usr/local/opt/openssl/bin:/Users/mikovainio/.yarn/bin:/Users/mikovainio/.config/yarn/global/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/mikovainio/.cargo/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/mikovainio/.nvm/versions/node/v13.10.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/mikovainio/.rvm/bin:/Users/mikovainio/.web3j:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/usr/local/git/bin:/usr/local/bin::/Users/mikovainio/.web3j
+
+Yarn version: 
+  1.19.2
+
+Node version: 
+  13.10.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/mikovainio/digital-energy-web-interface/package.json: Unexpected number in JSON at position 1002
+      at JSON.parse (<anonymous>)
+      at /Users/mikovainio/.yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/mikovainio/.yarn/lib/cli.js:304:30)
+      at /Users/mikovainio/.yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+      "name": "digital-energy-web-interface",
+      "version": "1.0.0",
+      "description": "Static Web Interface for Digital Energy Cloud based Energy Management",
+      "main": "boot.js",
+      "scripts": {
+          "start": "node ./standalone.js",
+          "test": "mocha"
+      },
+      "bin": {
+          "Digital Energy-webinterface": "./standalone.js"
+      },
+      "engines": {
+          "node": "12.x"
+      },
+      "repository": {
+          "type": "git",
+          "url": "git+https://github.com/nordicenergy/digital-energy-web-interface.git"
+      },
+      "author": "Nordic Energy Ltd. <info@nordicenergy.io>",
+      "license": "ISC",
+      "bugs": {
+          "url": "https://github.com/nordicenergy/digital-energy-web-interface/issues"
+      },
+      "homepage": "https://www.demo.digitalenergy.biz",
+      "dependencies": {
+          "Digital Energy": "^1.0.80",
+          "Digital Energy-ipfs-edge": "^1.1.72",
+          "cids": "^1.0.1",
+          "express": "^4.17.1"
+      },
+      "devDependencies": {
+          "mocha": "^8.1.3"
+      }
+  } - .
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,5 +1,5 @@
 {
-    "name": "Digital Energy Web Interface",
+    "name": "digital-energy-web-interface",
     "version": "1.0.0",
     "description": "Static Web Interface for Digital Energy Cloud based Energy Management",
     "main": "boot.js",
@@ -8,7 +8,7 @@
         "test": "mocha"
     },
     "bin": {
-        "Digital Energy-webinterface": "./standalone.js"
+        "Digital Energy Web Interface": "./standalone.js"
     },
     "engines": {
         "node": "12.x"
